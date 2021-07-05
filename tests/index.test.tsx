@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import Index from './index';
+import Index from 'pages/index';
 import { render, screen } from 'tests/test-utils';
 
 test('App renders correctly', () => {

@@ -6,4 +6,6 @@ module.exports = {
         "^hooks(.*)$": "<rootDir>/hooks$1",
         "^tests(.*)$": "<rootDir>/tests$1",
       },
+    testPathIgnorePatterns: ["<rootDir>/.next/", "<rootDir>/node_modules/"],
+
   };
